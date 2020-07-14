@@ -10,7 +10,9 @@ pool:
 steps:
 - task: CmdLine@2
   inputs:
+    workingDirectory: C:\agent\vsts-agent-win-x64-2.171.1\
     script: |
+      env: { path: C:\Users\suhaslr\Documents\azure_polaris\ } # mapping of environment variables to add
       echo Write your commands here
       echo path
       C:\Users\suhaslr\Documents\azure_polaris\polaris.exe analyze 
