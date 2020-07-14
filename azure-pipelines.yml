@@ -12,4 +12,4 @@ steps:
   inputs:
     script: |
       echo Write your commands here
-      polaris analyze 
+      C:\Users\suhaslr\Documents\azure_polaris\polaris.exe analyze 
