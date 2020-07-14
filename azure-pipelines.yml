@@ -12,5 +12,5 @@ steps:
   inputs:
     script: |
       echo Write your commands here
-      echo $path
+      echo path
       C:\Users\suhaslr\Documents\azure_polaris\polaris.exe analyze 
